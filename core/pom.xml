@@ -9,4 +9,23 @@
     <artifactId>core</artifactId>
     <packaging>jar</packaging>
     <name>Java Koans - Core</name>
+    
+    <dependencies>
+        <dependency>
+            <groupId>java-koans</groupId>
+            <artifactId>util</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>java-koans</groupId>
+            <artifactId>monitor</artifactId>
+        </dependency>
+            
+        <dependency>
+            <groupId>java-koans</groupId>
+            <artifactId>compiler</artifactId>
+        </dependency>
+    </dependencies>
+    
+    
 </project>

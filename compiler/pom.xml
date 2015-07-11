@@ -10,4 +10,11 @@
     <packaging>jar</packaging>
     <name>Java Koans - Compiler</name>
  
+    <dependencies>
+         <dependency>
+                <groupId>java-koans</groupId>
+                <artifactId>util</artifactId>
+            </dependency>
+    </dependencies>
+ 
 </project>
