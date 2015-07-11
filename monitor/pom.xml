@@ -9,4 +9,12 @@
     <artifactId>monitor</artifactId>
     <packaging>jar</packaging>
     <name>Java Koans - Monitor</name>
+    
+     <dependencies>
+         <dependency>
+                <groupId>java-koans</groupId>
+                <artifactId>util</artifactId>
+            </dependency>
+    </dependencies>
+    
 </project>
