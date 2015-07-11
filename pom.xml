@@ -29,6 +29,31 @@
                 <version>4.12</version>
                 <scope>test</scope>
             </dependency>
+            
+             <dependency>
+                <groupId>java-koans</groupId>
+                <artifactId>compiler</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            
+            <dependency>
+                <groupId>java-koans</groupId>
+                <artifactId>core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            
+              <dependency>
+                <groupId>java-koans</groupId>
+                <artifactId>monitor</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            
+            <dependency>
+                <groupId>java-koans</groupId>
+                <artifactId>util</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            
         </dependencies>
     </dependencyManagement>
 
@@ -96,12 +121,9 @@
                     </executions>
                     <configuration>
                         <detectLinks>true</detectLinks>
-                        <!-- excludePackageNames>blabla</excludePackageNames -->
                         <keywords>true</keywords>
                         <linksource>true</linksource>
-                        <!-- overview>${basedir}/overview.html</overview -->
                         <source>${maven.compiler.source}</source>
-                        <!-- stylesheetfile>${basedir}/src/site/css/money-jdoc.css</stylesheetfile -->
                         <verbose>true</verbose>
                         <additionalparam>-Xdoclint:none</additionalparam>
                     </configuration>
